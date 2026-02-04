@@ -24,7 +24,7 @@ using GorillaExtensions;
 using GorillaGameModes;
 using GorillaLocomotion;
 using GorillaLocomotion.Climbing;
-using GorillaNetworking;
+using GorillaNetworking:
 using GorillaTag;
 using GorillaTag.Cosmetics;
 using GorillaTag.Rendering;
@@ -87,6 +87,9 @@ namespace iiMenu.Mods
 
         public static void SidewaysHead() =>
             VRRig.LocalRig.head.trackingRotationOffset.y = 90f;
+
+		public static void LookUp() 
+			VRRig.localRig.head.trackingRotationOffset.x = 90f
  
 
         public static float lastBangTime;
