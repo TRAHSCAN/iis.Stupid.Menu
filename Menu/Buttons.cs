@@ -1011,7 +1011,7 @@ namespace iiMenu.Menu
                 new ButtonInfo { buttonText = "Upside Down Head", method = Fun.UpsideDownHead, disableMethod = Fun.FixHead, toolTip = "Flips your head upside down on the Z axis."},
                 new ButtonInfo { buttonText = "Backwards Head", method = Fun.BackwardsHead, disableMethod = Fun.FixHead, toolTip = "Rotates your head 180 degrees on the Y axis."},
                 new ButtonInfo { buttonText = "Sideways Head", method = Fun.SidewaysHead, disableMethod = Fun.FixHead, toolTip = "Rotates your head 90 degrees on the Y axis."},
-                new ButtonInfo { buttonText = "Look Up", method = Fun.LookUp, disableMethod = Fun.FixHead, ToolTip, = "Rotates your head -90 degrees on the Y axis."},
+                new ButtonInfo { buttonText = "Look Up", method = Fun.LookUp, disableMethod = Fun.FixHead, toolTip, = "Rotates your head -90 degrees on the Y axis."},
 
                 new ButtonInfo { buttonText = "Broken Neck", method = Fun.BrokenNeck, disableMethod = Fun.FixHead, toolTip = "Rotates your head 90 degrees on the Z axis."},
 
